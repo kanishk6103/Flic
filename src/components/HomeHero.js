@@ -18,13 +18,13 @@ const HomeHero = () => {
           <div className="flex pl-4 space-x-10">
             <button
               type="button"
-              className="px-8 py-3 font-semibold rounded-full bg-green-600 text-gray-800"
+              className="px-8 py-3 font-semibold rounded-full hover:bg-green-700 bg-green-600 text-gray-800"
             >
               Sample
             </button>
             <button
               type="button"
-              className="px-8 bg-violet-900 py-3 font-semibold rounded-full"
+              className="px-8 bg-violet-800 hover:bg-violet-900 py-3 font-semibold rounded-full"
             >
               Sample
             </button>
