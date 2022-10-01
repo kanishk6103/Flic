@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Flic/static/css/main.c65d86da.css",
+    "main.js": "/Flic/static/js/main.603edf21.js",
+    "index.html": "/Flic/index.html",
+    "main.c65d86da.css.map": "/Flic/static/css/main.c65d86da.css.map",
+    "main.603edf21.js.map": "/Flic/static/js/main.603edf21.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c65d86da.css",
+    "static/js/main.603edf21.js"
+  ]
+}
