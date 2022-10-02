@@ -50,7 +50,7 @@ const Teams = () => {
         <h2 className='bg-gradient-to-r  mt-5 text-center sm:text-left from-indigo-800 to-green-500 text-transparent bg-clip-text sm:text-5xl text-4xl text-[2.1rem] font-bold'>Meet Our Team!</h2>
         <div className="border-b-4 mb-12 border-indigo-400 sm:mx-20 my-2 mx-auto lg:w-[15vw] sm:w-[20vw] w-[30vw]"></div>
         <h3 className='mt-10 font-semibold text-center sm:text-left text-2xl text-white mb-4 sm:mb-0'>Chiefs</h3>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2">
         {teamchiefs.map((value,idx) => {
             return(
                 <div className="grid grid-cols-1 mx-auto my-2" key={idx}>
@@ -62,7 +62,7 @@ const Teams = () => {
         })}
         </div>
         <h3 className='mt-10 font-semibold text-center sm:text-left text-2xl text-white mb-4 sm:mb-0'>Heads</h3>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-2">
         {teamhead.map((value,idx) => {
             return(
                 <div className="grid grid-cols-1 mx-auto my-2" key={idx}>
