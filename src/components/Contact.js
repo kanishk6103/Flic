@@ -4,8 +4,8 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section className="py-6 bg-slate-900 text-gray-50">
-        <div className="grid max-w-6xl grid-cols-1 px-6 mx-auto lg:px-8 md:grid-cols-2 md:divide-x">
+      <section className="py-6 bg-slate-900 h-[100vh]  text-gray-50">
+        <div className="grid max-w-6xl grid-cols-1 px-6 m-auto lg:px-8 md:grid-cols-2 md:divide-x">
           <div className="py-6 md:py-0 md:px-6">
             <h1 className="bg-gradient-to-r from-green-400 to-indigo-800 text-transparent bg-clip-text text-4xl font-bold">
               Get in touch
