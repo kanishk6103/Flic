@@ -2,7 +2,7 @@ import React from "react";
 
 const Timeline = () => {
 	return (
-		<div>
+		<div id="About">
 			<div class="overflow-hidden">
 				<div class="flex flex-col bg-slate-900 md:grid grid-cols-9 mx-auto p-2   text-blue-50">
 					<div class="flex flex-row-reverse md:contents">
