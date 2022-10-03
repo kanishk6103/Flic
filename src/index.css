@@ -23,3 +23,32 @@
   margin: 0;
   scroll-behavior: smooth;
 }
+
+
+/* logo animation css */
+#svg{
+  stroke: white !important;
+  width: 100px;
+  cursor: pointer;
+}
+#pathsvg {
+  stroke-dasharray: 2170;
+  stroke-dashoffset: 2170;
+  animation: dash 2.3s ease forwards;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+#svg-gradient {
+  opacity: 0.0;
+  display: inline-block;
+  -webkit-transition: opacity .4s ease;
+  -moz-transition: opacity .4s ease;
+  -o-transition: opacity .4s ease;
+  transition: opacity .4s ease;
+}
+#svg-gradient:hover {
+opacity: 1.0;
+}
