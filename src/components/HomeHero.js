@@ -3,7 +3,7 @@ import React from "react";
 const HomeHero = () => {
   return (
     <>
-      <div className="grid sm:h-full overflow-x-hidden bg-[#202020]">
+      <div className="grid sm:h-screen overflow-x-hidden bg-[#202020]">
         <div className="mx-auto sm:mx-32 flex flex-col pt-48">
           <h1 className="font-['Epilogue'] antialiased text-white text-4xl font-[500] w-96 leading-[5rem] tracking-wide">
             Hey! Welcome to our club{" "}
@@ -11,26 +11,26 @@ const HomeHero = () => {
               FLiC.
             </span>
           </h1>
-          <p className="font-['Epilogue'] font-[200] antialiased text-[#949494] my-4 pb-5">
+          <p className="font-['Epilogue'] font-[200] antialiased text-[#949494] my-4 pb-16">
             The official financial literacy club of IET-DAVV.
           </p>
 
           <div className="flex space-x-10">
             <button
               type="button"
-              className="px-8 py-3 active:rounded font-['Epilogue'] font-[600] antialiased rounded-full hover:bg-green-700 bg-green-600 text-gray-800"
+              className="px-8 py-3 active:rounded font-['Epilogue'] font-[600] antialiased rounded-full bg-[#338D3F] hover:bg-green-600 text-white"
             >
               Sample
             </button>
             <button
               type="button"
-              className="px-8 py-3 active:rounded bg-violet-800 font-['Epilogue'] font-[600] hover:bg-violet-900 py-3 font-semibold rounded-full"
+              className="px-8 py-3 active:rounded bg-[#262262] font-['Epilogue'] font-[600] hover:bg-[#453FA6] py-3 font-semibold rounded-full text-white"
             >
               Sample
             </button>
           </div>
         </div>
-        <div className="pl-12 grid grid-cols-1 sm:flex w-[100vw] space-y-8 mt-8 sm:space-y-0 sm:pt-24">
+        <div className="pl-12 grid grid-cols-1 sm:flex w-[100vw] space-y-8 mt-8 sm:space-y-0 sm:pt-20">
           <div className="mx-auto sm:mx-16">
             <div className="flex">
               <svg
