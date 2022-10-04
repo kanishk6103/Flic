@@ -3,34 +3,34 @@ import React from "react";
 const HomeHero = () => {
   return (
     <>
-      <div className="grid sm:h-full overflow-x-hidden bg-slate-900">
-        <div className="mx-auto sm:mx-16 flex flex-col pt-8">
-          <h1 className="text-white text-4xl font-semibold w-80 leading-[5rem]">
-            Hey! Welcome to Our Club{" "}
-            <span className="bg-gradient-to-r from-[#2F2A7B] text-6xl to-[#39B54A] text-transparent bg-clip-text font-bold">
+      <div className="grid sm:h-full overflow-x-hidden bg-[#202020]">
+        <div className="mx-auto sm:mx-32 flex flex-col pt-48">
+          <h1 className="font-['Epilogue'] antialiased text-white text-4xl font-[500] w-96 leading-[5rem] tracking-wide">
+            Hey! Welcome to our club{" "}
+            <span className="bg-gradient-to-r from-[#2F2A7B] text-7xl to-[#39B54A] text-transparent bg-clip-text pl-2 font-[900] tracking-wide">
               FLiC.
             </span>
           </h1>
-          <p className="text-[#949494] my-4">
+          <p className="font-['Epilogue'] font-[200] antialiased text-[#949494] my-4 pb-5">
             The official financial literacy club of IET-DAVV.
           </p>
 
           <div className="flex space-x-10">
             <button
               type="button"
-              className="px-8 py-3 active:rounded font-semibold rounded-full hover:bg-green-700 bg-green-600 text-gray-800"
+              className="px-8 py-3 active:rounded font-['Epilogue'] font-[600] antialiased rounded-full hover:bg-green-700 bg-green-600 text-gray-800"
             >
               Sample
             </button>
             <button
               type="button"
-              className="px-8 active:rounded  bg-violet-800 hover:bg-violet-900 py-3 font-semibold rounded-full"
+              className="px-8 py-3 active:rounded bg-violet-800 font-['Epilogue'] font-[600] hover:bg-violet-900 py-3 font-semibold rounded-full"
             >
               Sample
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-1 sm:flex w-[100vw] space-y-8 mt-8 sm:space-y-0 sm:pt-10">
+        <div className="pl-12 grid grid-cols-1 sm:flex w-[100vw] space-y-8 mt-8 sm:space-y-0 sm:pt-24">
           <div className="mx-auto sm:mx-16">
             <div className="flex">
               <svg

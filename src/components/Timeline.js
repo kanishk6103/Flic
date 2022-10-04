@@ -4,7 +4,7 @@ const Timeline = () => {
 	return (
 		<div id="About">
 			<div class="overflow-hidden">
-				<div class="flex flex-col bg-slate-900 md:grid grid-cols-9 mx-auto p-2   text-blue-50">
+				<div class="flex flex-col bg-[#202020] md:grid grid-cols-9 mx-auto p-2 text-blue-50">
 					<div class="flex flex-row-reverse md:contents">
 						<div class="col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
 							<h3 class=" font-bold justify-center mb-3 bg-gradient-to-r from-indigo-800 to-green-400 text-transparent bg-clip-text text-4xl">What is FLiC</h3>
