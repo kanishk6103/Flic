@@ -1,4 +1,5 @@
 import React from "react";
+import { motion, useScroll, useSpring } from "framer-motion"
 import Contact from "./components/Contact";
 import HomeHero from "./components/HomeHero";
 import Navbar from "./components/Navbar";
